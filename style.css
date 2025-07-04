@@ -1,0 +1,84 @@
+/*Website style sheet*/
+
+@font-face {
+    font-family: 'Titillium Web Regular';
+    src: url(fonts/TitilliumWeb-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Titillium Web Bold';
+    src: url(fonts/TitilliumWeb-Bold.ttf) format('truetype');
+}
+
+body {
+    background-color: rgb(198, 198, 219)
+    
+}
+
+h1, h2, h3 {
+    font-family: 'Titillium Web Bold', sans-serif;
+    color: black;
+}
+
+p {
+    font-family: 'Titillium Web Regular', sans-serif;
+    color: black;
+    font-size: 16px;
+}
+h1 {
+    color: black; 
+    font-size: 80px;
+    font-weight: 700
+    font-family: 'Titillium Web Regular', sans-serif;
+    text-align: center;
+    margin-top: 50px; 
+    border-bottom: 1px solid black;
+}
+
+ol, ul {
+    font-family: 'Titillium Web Regular', sans-serif;
+    color: black;
+    font-size: 16px;
+    margin-left:40px;
+    margin-top:30px;
+    width:50%
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.list-box {
+    border: 2px solid #ccc;
+    padding: 20px;
+    margin: 40px 0;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    text-align: left;
+}
+
+.content-box {
+    border: 2px solid #ccc;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+   
+}
+footer p {
+    font-family: 'Titillium Web Regular', sans-serif;
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+    font-family: ; 'Titillium Web Regular', sans-serif;
+}
