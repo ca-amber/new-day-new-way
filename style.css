@@ -10,6 +10,23 @@
     src: url(fonts/TitilliumWeb-Bold.ttf) format('truetype');
 }
 
+header {
+    background-color: rgb(92, 158, 221);
+    padding: 10px;
+    text-align: center;
+    font-family: 'Titillium Web Bold', sans-serif;
+   
+}
+
+header p {
+    font-family: 'Titillium Web Bold ; san-serif;   
+    color: black;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
+
 body {
     background-color: rgb(198, 198, 219)
     
@@ -23,7 +40,7 @@ h1, h2, h3 {
 p {
     font-family: 'Titillium Web Regular', sans-serif;
     color: black;
-    font-size: 16px;
+    font-size: 20px
 }
 h1 {
     color: black; 
@@ -38,7 +55,7 @@ h1 {
 ol, ul {
     font-family: 'Titillium Web Regular', sans-serif;
     color: black;
-    font-size: 16px;
+    font-size: 20px;
     margin-left:40px;
     margin-top:30px;
     width:50%
@@ -48,6 +65,7 @@ ol, ul {
     width: 80%;
     margin: 0 auto;
     margin-bottom: 25px;
+    margin-top: 25px;
     padding: 20px;
     background-color: rgb(240, 150, 24);
     border-radius: 10px;
@@ -57,19 +75,22 @@ ol, ul {
 
 .list-box {
     border: 2px solid #ccc;
-    padding: 20px;
-    margin: 40px 0;
+    padding; 40px;
+    margin-top; 25px;
+    margin-bottom: 25px;
+    width:50%;
     border-radius: 10px;
-    background-color: #f9f9f9;
+    background-color: #67ea8a;
     text-align: left;
 }
 
 .content-box {
-    border: 2px solid #ccc;
+    border: 5px solid rgb(98, 152, 221);
     padding: 20px;
     margin: 20px 0;
     border-radius: 10px;
-    background-color: #f9f9f9;
+    background-color: rgb(240,150, 24);
+    text-align: center;
    
 }
 footer p {
@@ -84,4 +105,23 @@ a {
     color: blue;
     text-decoration: none;
     font-family: ; 'Titillium Web Regular', sans-serif;
+}
+
+.bg-section {
+    background-image: url("https://plus.unsplash.com/premium_photo-1664297436720-dfd46b2a51de?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    border: 2px solid black
+    width: 50%;
+    height: 400px;
+    margin: 0 auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: : center;
+}
+
+.innovate-box {
+    background-color: rgb(24, 146, 240);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    text-align: center;
 }
